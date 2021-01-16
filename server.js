@@ -6,13 +6,12 @@ const express = require("express");
 const fs = require("fs");
 const discordBotkit = require("botkit-discord");
 var Client = require("uptime-robot");
+const discordjs = require("discord.js");
 
 const app = express();
 
 const discordBot = require("./bot");
 
-// this is the code for the guides
-app.use(require('./guides'));
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));

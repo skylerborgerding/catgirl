@@ -11,6 +11,8 @@ Change Logs:
 
 This bot is protected and copyrighted by Moonlight Design Agency, LLC while in development. ALL RIGHTS RESERVED.
 
+Development Trello: https://trello.com/b/Phv51LjK/catgirl-development
+
 For security reporting please email: squelch@skyplexgroup.com
 
 For development questions or suggestions please email: development@skyplexgroup.com

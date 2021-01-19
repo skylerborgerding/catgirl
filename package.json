@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Skyler Borgerding dba Moonlight Design Agency LLC",
   "license": "ISC",
   "dependencies": {
     "botkit-discord": "^0.1.3",

@@ -1,5 +1,5 @@
 module.exports = function(controller) {
-  controller.hears("!pat", ["direct_mention", "mention"], (bot, message) => {
+  controller.hears("!pat", ["ambient", "mention"], (bot, message) => {
     let response;
     let sender = message.user;
 
@@ -19,7 +19,7 @@ module.exports = function(controller) {
     bot.reply(message, response);
   });
 
-  controller.hears("!smash", ["direct_mention", "mention"], (bot, message) => {
+  controller.hears("!smash", ["ambient", "mention"], (bot, message) => {
     let response;
     let sender = message.user;
 
@@ -39,7 +39,7 @@ module.exports = function(controller) {
       `Nya! ${sender}! Play with me!`,
       `Nya! ${sender}! Your milk is so creamy Senpai!`,
       `Nya! ${sender}! Give me your milk Senpai!`,
-      `Nya! ${sender}! **blushes** What do you want me to do Senpai? :point_right::point_left::pleading_face:`
+      `Nya! ${sender}! *blushes* What do you want me to do Senpai? :point_right::point_left::pleading_face:`
     ];
 
     response = responses[Math.floor(Math.random() * responses.length)];

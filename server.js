@@ -8,10 +8,11 @@ const discordBotkit = require("botkit-discord");
 var Client = require("uptime-robot");
 const discordjs = require("discord.js");
 
+
 const app = express();
 
 const discordBot = require("./bot");
-
+const status = require("./status");
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));
@@ -19,3 +20,4 @@ app.use(express.static("public"));
 const listener = app.listen(process.env.PORT, function() {
   console.log("Your app is listening on port " + listener.address().port);
 });
+ 

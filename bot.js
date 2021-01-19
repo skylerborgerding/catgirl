@@ -1,5 +1,7 @@
 const discordBotkit = require("botkit-discord");
 
+
+
 const configuration = {
   token: process.env.DISCORD_TOKEN
 };
@@ -12,5 +14,6 @@ require("fs")
   .forEach(function(file) {
     require("./skills/" + file)(discordBot);
   });
+
 
 module.exports = discordBot;

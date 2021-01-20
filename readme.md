@@ -4,14 +4,13 @@ Change Logs:
 +Added capability to not have to directly mention. //
 +Added status capability //
 +Changed profile picture to fit her personality "rawr" //
++Added Neko Sugar Girls quote function with !neko //
 
 -Removed erronious code from repository
 
 ================================================================================================================
 
 This bot is protected and copyrighted by Moonlight Design Agency, LLC while in development. ALL RIGHTS RESERVED.
-
-Development Trello: https://trello.com/b/Phv51LjK/catgirl-development
 
 For security reporting please email: squelch@skyplexgroup.com
 

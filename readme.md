@@ -1,10 +1,7 @@
-Version 1.2 - 01/19/2021
+Version 1.3 - 01/23/2021
 
 Change Logs:
-+Added capability to not have to directly mention. //
-+Added status capability //
-+Changed profile picture to fit her personality "rawr" //
-+Added Neko Sugar Girls quote function with !neko //
++Added AI to code /// +Optimized her code
 
 -Removed erronious code from repository
 

@@ -33,16 +33,12 @@ module.exports = function(controller) {
 
     let responses = [
       `Nya! ${sender}! *purrs and blushes* 😍`,
-      `Nya! ${sender}! I'm in heat!`,
       `Nya! ${sender}! Pull my tail!`,
       `Nya! ${sender}! I know you're not just happy to see me!`,
-      `Nya! ${sender}! uwu, what's dis? *notices bulge*`,
       `Nya! ${sender}! Rawr xD`,
       `Nya! ${sender}! *pounces on you*`,
       `Nya! ${sender}! Senpai, you've finally noticed me!`,
       `Nya! ${sender}! Play with me!`,
-      `Nya! ${sender}! Your milk is so creamy Senpai!`,
-      `Nya! ${sender}! Give me your milk Senpai!`,
       `Nya! ${sender}! *blushes* What do you want me to do Senpai? :point_right::point_left::pleading_face:`
     ];
 

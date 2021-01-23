@@ -13,6 +13,7 @@ const app = express();
 
 const discordBot = require("./bot");
 const status = require("./status");
+const ai = require("./ai");
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));

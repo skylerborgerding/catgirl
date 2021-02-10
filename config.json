@@ -1,0 +1,7 @@
+{
+  "prefix": "=",
+  "discord_owner_id": "252827555252404225",
+  "token": "process.env.DISCORD_TOKEN",
+  "youtubeAPI": "AIzaSyAGxNozUgltuS13JeYjfTfvT9usJhZhKKk",
+  "geniusLyricsAPI": "mIXNIMXZWByFGCMF4k-2NU80v7jiDSkFvpCLMtQk72_QFegCDh6CJgfeeMqV8moP"
+}

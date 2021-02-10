@@ -1,3 +1,4 @@
+
 module.exports = function(controller) {
   controller.hears("!pat", ["ambient", "mention"], (bot, message) => {
     let response;

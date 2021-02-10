@@ -14,6 +14,8 @@ const app = express();
 const discordBot = require("./bot");
 const status = require("./status");
 const ai = require("./ai");
+const music = require("./commands/music/play");
+const musicboss = require("./index");
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static("public"));

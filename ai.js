@@ -42,7 +42,7 @@ async function getMessage(request, sessionId) {
     })
     .catch(err => {
       console.log("unsuccessful call");
-      console.log(err);
+      console.log(Error);
       return Error.stringify;
     });
 }
@@ -64,7 +64,8 @@ const Token = process.env.DISCORD_TOKEN;
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-const regexPrefix = new RegExp("Catgirl*");
+
+const regexPrefix = new RegExp("cg");
 client.on("message", msg => {
   //regexp for a key word 'blu*'
   if (regexPrefix.test(msg.content)) {

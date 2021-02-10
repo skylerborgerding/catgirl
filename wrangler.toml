@@ -1,0 +1,6 @@
+name = "catgirlredeploy"
+type = "javascript"
+account_id = "bd5258a6e65223977de31307770d4e0a"
+workers_dev = true
+route = ""
+zone_id = ""

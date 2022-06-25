@@ -33,7 +33,7 @@
     "path": "^0.12.7",
     "discord-paginationembed": "^1.0.3",
     "cheerio": "^0.22.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "wrap-fn": "^0.1.5",
     "@cloudflare/wrangler": "^1.13.0"
   },
